@@ -1,8 +1,6 @@
-# 👋 Bonjour, je m'appelle Dario
+# Bonjour !
 
----
-
-## 🛠️ Pile technologique :
+## 🧱 Socle technologique :
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -21,19 +19,17 @@
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
 ![Ubiquiti](https://img.shields.io/badge/Ubiquiti-0559C9?style=for-the-badge&logo=ubiquiti&logoColor=white)
 
----
 
-## 📊 Statistiques GitHub :
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=darismbau&show_icons=true&theme=dark&hide_border=true&count_private=true)
+## Statistique GitHub :
+
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=darismbau&layout=compact&theme=dark&hide_border=true)
 
----
 
-## 📅 Activité GitHub :
+## Activité GitHub :
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=darismbau&theme=dark&hide_border=true)
-![Most Used Languages](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=darismbau&theme=github_dark)
+#
 ![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=darismbau&theme=github_dark)
 
 
