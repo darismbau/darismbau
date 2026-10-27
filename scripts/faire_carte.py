@@ -6,16 +6,12 @@ LARGEUR, HAUTEUR = 490, 400
 LIGNES = [
     ("Rôle", "Élève ingénieur Informatique & Réseaux"),
     ("École", "ENSISA, Mulhouse"),
-    ("Avant", "2 ans chez Orange, technicien opérateur"),
-    ("", "d'infrastructure boucle locale optique"),
     ("Focus", "Réseaux informatiques"),
     ("", "Infrastructure pour l'IA"),
     ("", "Sécurité réseau"),
     ("Projets", "Réseau opérateur multi-sites"),
     ("", "Vidéosurveillance avec IA"),
     ("", "Traceur GPS LoRaWAN"),
-    ("Langues", "Français, anglais (en progression)"),
-    ("Lieu", "Colmar, France"),
     ("Site", "darismbau.github.io"),
 ]
 COULEURS = ["#f85149", "#d29922", "#39d353", "#58a6ff", "#bc8cff", "#39c5cf", "#c9d1d9"]
@@ -23,7 +19,7 @@ COULEURS = ["#f85149", "#d29922", "#39d353", "#58a6ff", "#bc8cff", "#39c5cf", "#
 
 def faire_carte():
     """Titre, séparateur, lignes clé/valeur qui apparaissent l'une après l'autre, puis la palette."""
-    y = lambda i: 92 + i * 21
+    y = lambda i: 100 + i * 27
     lignes = "".join(
         f'<text x="26" y="{y(i)}" style="animation-delay:{0.4 + i * 0.12:.2f}s">'
         f'<tspan class="k">{escape(c)}</tspan><tspan x="118" class="v">{escape(v)}</tspan></text>'
@@ -40,8 +36,8 @@ text[style],rect[style]{{opacity:0;animation:entree .45s ease-out forwards}}
 </style>
 <rect width="{LARGEUR}" height="{HAUTEUR}" rx="10" fill="#0d1117" stroke="#30363d"/>
 <circle cx="20" cy="18" r="5" fill="#f85149"/><circle cx="36" cy="18" r="5" fill="#d29922"/><circle cx="52" cy="18" r="5" fill="#3fb950"/>
-<text x="26" y="56" class="t">daris<tspan fill="#c9d1d9">@</tspan>ensisa</text>
-<text x="26" y="70" fill="#30363d">──────────────────────────────────────────</text>
+<text x="26" y="58" class="t">daris<tspan fill="#c9d1d9">@</tspan>ensisa</text>
+<text x="26" y="74" fill="#30363d">──────────────────────────────────────────</text>
 {lignes}{palette}
 </svg>'''
 
